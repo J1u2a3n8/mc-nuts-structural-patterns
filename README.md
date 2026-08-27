@@ -1,12 +1,73 @@
-# MCNuts APP 
-![147183119_491843355551038_4736773095611486819_n](https://user-images.githubusercontent.com/74753713/147300789-c61290bf-6f49-408e-befb-c3168f225430.jpg)
+# mc-nuts-structural-patterns
 
+> Patrones Estructurales en C#
 
+![Language](https://img.shields.io/github/languages/top/J1u2a3n8/mc-nuts-structural-patterns)
+![License](https://img.shields.io/github/license/J1u2a3n8/mc-nuts-structural-patterns)
+![Last Commit](https://img.shields.io/github/last-commit/J1u2a3n8/mc-nuts-structural-patterns)
+![Stars](https://img.shields.io/github/stars/J1u2a3n8/mc-nuts-structural-patterns?style=social)
+![Issues](https://img.shields.io/github/issues/J1u2a3n8/mc-nuts-structural-patterns)
 
+## 📋 Descripción
 
+Proyecto destacado del portfolio - demuestra habilidades avanzadas en arquitectura y patrones. Migrado, historial reescrito, documentado para portfolio.
 
-# LANGUAGE
-* C#
+## 🏗️ Arquitectura
 
-# DESCRIPTION
-The peanut sales company McNuts wants to allow its customers to buy its products through a sales system that generates an invoice from two very different models of entities such as customers and peanuts, also wants to be able to add a limited stock of peanut flavors automatically regardless of whether they are different models for each customer so there is no lack in stock and can improve sales of their product, to be able to associate two models that are different and achieve a common goal we used the structural design pattern of adapter generating that customers and peanuts can generate an invoice and finally to be able to manage a specific stock for each customer of peanuts preventing the shortage of others we used the structural design facade.
+Ver codigo para detalles.
+
+## 🚀 Inicio Rápido
+
+### Prerrequisitos
+
+.NET 8 SDK, Visual Studio 2022 / VS Code + C# Dev Kit
+
+### Instalación
+
+```bash
+# Clonar
+git clone https://github.com/J1u2a3n8/mc-nuts-structural-patterns.git
+cd mc-nuts-structural-patterns
+
+dotnet restore
+# dotnet build
+```
+
+### Uso
+
+```bash
+dotnet run --project src/
+```
+
+## 🧪 Tests
+
+```bash
+dotnet test
+```
+
+## 📁 Estructura del Proyecto
+
+```
+mc-nuts-structural-patterns/
+├── src/              # Código fuente principal
+├── tests/            # Tests unitarios/integración
+├── docs/             # Documentación
+├── .github/          # Workflows CI/CD
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+**C#**, .NET 8, ASP.NET Core, Entity Framework, xUnit
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia **MIT** - ver [LICENSE](LICENSE) para detalles.
+
+## 👤 Autor
+
+**J1u2a3n8** - [GitHub](https://github.com/J1u2a3n8) - [LinkedIn](https://linkedin.com/in/juanluiscanedo)
+
+---
+
+⭐ Si este proyecto te fue útil, ¡dale una estrella!
